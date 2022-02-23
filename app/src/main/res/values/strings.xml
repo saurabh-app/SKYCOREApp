@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SkyCoreApp</string>
+    <string name="radius">Radius Selector</string>
+    <string name="km">1 KM</string>
+</resources>

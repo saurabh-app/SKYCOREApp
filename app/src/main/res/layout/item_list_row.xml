@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="60dp"
+                android:layout_height="85dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/title"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/image"
+                android:padding="5dp"
+                android:text="dxkjngvdshbfds" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_below="@+id/title"
+    android:layout_toRightOf="@+id/image"
+    android:layout_centerHorizontal="true"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/text_Subtitle"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:maxLines="2"
+        android:visibility="visible"
+        android:text="dxkjngvdshbfds" />
+    <TextView
+        android:id="@+id/ratingImag"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="45"
+        android:gravity="center"
+
+        android:layout_gravity="end"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@drawable/ratingshap" />
+</LinearLayout>
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone">
+
+    <ImageView
+        android:layout_alignParentEnd="true"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="center"
+        android:layout_alignBaseline="@id/title"
+        android:src="@drawable/ratingshap"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/image"/>
+</RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
